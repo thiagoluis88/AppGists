@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gist_image_size">165dp</dimen>
+    <dimen name="default_padding">10dp</dimen>
+    <dimen name="small_padding">5dp</dimen>
+    <dimen name="column_width">300dp</dimen>
+    <dimen name="medium_padding">14dp</dimen>
+    <dimen name="items_header_padding">50dp</dimen>
+    <dimen name="collapsing_margin">65dp</dimen>
+    <dimen name="title_padding">16dp</dimen>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AppGists</string>
+    <string name="gist_anonymous">anonymous</string>
+    <string name="network_error">Ops! Aconteceu um problema com a conexão. Tente novamente mais tarde</string>
+    <string name="reload">Recarregar</string>
+    <string name="load_error">Não foi possível carregar os dados. Tente novamente</string>
+
+    <plurals name="comments">
+        <item quantity="one">%d comentário</item>
+        <item quantity="other">%d comentários</item>
+    </plurals>
+
+    <plurals name="forks">
+        <item quantity="one">%d fork</item>
+        <item quantity="other">%d forks</item>
+    </plurals>
+
+    <plurals name="files">
+        <item quantity="one">%d arquivo</item>
+        <item quantity="other">%d arquivos</item>
+    </plurals>
+</resources>

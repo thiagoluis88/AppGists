@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_margin="@dimen/default_padding"
+        android:id="@+id/cardView"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/gist_image_size"
+                android:layout_height="@dimen/gist_image_size"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/gistImage"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gistOwnerNameText"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/default_padding"
+                android:text="anonymous"
+                android:layout_margin="@dimen/default_padding"
+                android:textStyle="bold"
+                android:textSize="17.5sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gistTypeText"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/gistOwnerNameText"
+                android:text="application/json"
+                android:layout_marginTop="@dimen/title_padding"
+                android:layout_marginRight="@dimen/default_padding"
+                android:layout_marginEnd="@dimen/default_padding"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gistLanguageText"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/gistTypeText"
+                android:layout_marginRight="@dimen/default_padding"
+                android:layout_marginEnd="@dimen/default_padding"
+                android:text="json"
+                android:layout_marginTop="@dimen/default_padding"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/createdAtText"
+                android:layout_alignBottom="@+id/gistImage"
+                android:layout_marginTop="@dimen/default_padding"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:text="20/10/2015 12:20"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

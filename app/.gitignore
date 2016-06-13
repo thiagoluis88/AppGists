@@ -1,0 +1,11 @@
+/build
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+idea/
+
+# generated files
+bin/
